@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int great(const std::string str)
+int great(const std::string& str)
 {
     std::cout << "Greatings, " << str << std::endl;
 }
