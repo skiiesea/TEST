@@ -11,6 +11,6 @@ int main()
     std::string name;
     std::cout << "Input your Name: " << std::endl;
     std::cin >> name;
-    great(name)
+    great(name);
     return 0;
 }
